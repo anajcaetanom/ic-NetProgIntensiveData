@@ -5,7 +5,6 @@ from mininet.net import Mininet
 from mininet.util import dumpNodeConnections
 from mininet.log import setLogLevel
 
-
 class TwoSwitchesTopo(Topo):
     """Dois switches interconectados com
     metade dos hosts em cada um."""
@@ -55,3 +54,6 @@ if __name__ == '__main__':
     startNetwork(net)
     testNetwork(net)
     stopNetwork(net)
+
+    net.stop()
+
