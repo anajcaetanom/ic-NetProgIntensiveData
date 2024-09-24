@@ -54,6 +54,3 @@ if __name__ == '__main__':
     startNetwork(net)
     testNetwork(net)
     stopNetwork(net)
-
-    net.stop()
-
