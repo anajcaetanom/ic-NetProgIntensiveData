@@ -1,12 +1,15 @@
-# Mininet Python Scripts
+# Programabilidade de Recursos de Rede para Aplicações de Ciência de Dados Intensiva
 
-Este repositório contém scripts em Python para automação e manipulação do Mininet, uma ferramenta de emulação de redes que permite a criação de redes virtuais em um ambiente simulado.
+Este repositório contém experimentos e códigos relacionados à iniciação científica intitulada **"Programabilidade de Recursos de Rede para Aplicações de Ciência de Dados Intensiva"**. O objetivo deste projeto é explorar como a programabilidade de recursos de rede pode ser aplicada em cenários que envolvem ciência de dados com alto uso de rede.
 
-## Pré-requisitos
+## Estrutura do Repositório
 
-Antes de usar os scripts, você precisa ter o Mininet instalado em sua máquina. Você pode instalar o Mininet seguindo as instruções [neste link](http://mininet.org/download/).
+Este repositório está organizado em duas principais pastas:
 
-Além disso, é recomendável ter o Python 3 instalado. Para verificar se o Python está instalado, execute:
+### 1. **Mininet**
+A pasta `mininet` contém scripts e experimentos relacionados à simulação de redes usando o **Mininet**, uma plataforma que permite a criação de redes virtuais com switches, hosts e links em um ambiente controlado.
 
-```bash
-python3 --version
+### 2. **P4**
+A pasta `p4` contém códigos e arquivos relacionados à linguagem **P4**, usada para programar o comportamento de switches e roteadores em redes definidas por software (SDN).
+
+
